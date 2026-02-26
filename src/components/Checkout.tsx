@@ -30,7 +30,7 @@ const SHIPPING_METHODS = [
     icon: '📦',
     name: 'Standard Shipping',
     subtitle: 'Free on orders over $35',
-    time: '5–7 business days',
+    time: '5-7 business days',
     price: (subtotal: number) => subtotal >= 35 ? 0 : 4.99,
     badge: null,
   },
@@ -39,7 +39,7 @@ const SHIPPING_METHODS = [
     icon: '🚚',
     name: 'Express Shipping',
     subtitle: 'Faster delivery guaranteed',
-    time: '2–3 business days',
+    time: '2-3 business days',
     price: () => 12.99,
     badge: 'Popular',
   },
@@ -1164,7 +1164,7 @@ export function Checkout({ isOpen, onClose }: CheckoutProps) {
               </div>
 
               <p className="text-xs text-gray-400 mt-6">
-                Need help? Contact us at <a href="mailto:support@bookhaven.com" className="text-amber-700 hover:underline">support@bookhaven.com</a> or call 1-800-BOOKS-NOW
+                Need help? Contact us at <a href="mailto:support@bookhaven.com" className="text-amber-700 hover:underline">support@KhmerBookStore.com</a> or call 1-800-BOOKS-NOW
               </p>
             </div>
           )}

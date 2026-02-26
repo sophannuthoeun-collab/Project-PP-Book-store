@@ -85,13 +85,16 @@ export function BookGrid({ books, onBookClick, category, searchQuery }: BookGrid
               <div className="relative flex items-center gap-2 bg-white border border-gray-200 rounded-xl px-4 py-2.5">
                 <FaSortAmountDown className="text-gray-400" size={13} />
                 <select value={sortBy} onChange={e => setSortBy(e.target.value)} className="appearance-none bg-transparent focus:outline-none text-gray-700 font-medium text-sm pr-4 cursor-pointer">
-                  <option value="featured">Featured</option>
+                  <div className='text-center'>
+
+                  <option  value="featured">Featured</option>
                   <option value="newest">Newest</option>
                   <option value="reviews">Most Reviewed</option>
                   <option value="rating">Top Rated</option>
                   <option value="price-low">Price: Low to High</option>
                   <option value="price-high">Price: High to Low</option>
                   <option value="az">A – Z</option>
+                  </div>
                 </select>
               </div>
 

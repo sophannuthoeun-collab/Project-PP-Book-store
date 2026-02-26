@@ -1,7 +1,8 @@
+
 import { useState, useMemo } from 'react';
 import { StoreProvider } from './context/StoreContext';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
+import { Hero } from '../components/Hero';
 import { FeaturedBooks } from './components/FeaturedBooks';
 import { BookGrid } from './components/BookGrid';
 import { BookDetail } from './components/BookDetail';
@@ -12,9 +13,6 @@ import { AuthModal } from './components/AuthModal';
 import { Footer } from './components/Footer';
 import { books } from './data/books';
 import { Book } from './types';
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import FAQPage from "./pages/FAQPage";
 
 function AppContent() {
   const [category, setCategory] = useState('all');
@@ -195,15 +193,5 @@ function AppContent() {
       <Checkout isOpen={isCheckoutOpen} onClose={() => setIsCheckoutOpen(false)} />
       <AuthModal isOpen={isAuthOpen} onClose={() => setIsAuthOpen(false)} />
     </div>
-  );
-}
-
-export function App() {
-  return (
-    <StoreProvider>
-      <AppContent />
-
-    </StoreProvider>
-    
   );
 }
