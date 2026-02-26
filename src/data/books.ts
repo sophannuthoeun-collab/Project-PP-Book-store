@@ -211,7 +211,7 @@ export const books: Book[] = [
     image:
       "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Iron_Flame_Cover_Art.jpg/250px-Iron_Flame_Cover_Art.jpg",
     images: [
-      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692392442i/156901097.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Iron_Flame_Cover_Art.jpg/250px-Iron_Flame_Cover_Art.jpg",
     ],
     category: "fiction",
     genre: "Fantasy Romance",
@@ -267,7 +267,7 @@ export const books: Book[] = [
     price: 18.99,
     image: "https://www.qbd.com.au/img/products/0/9780241998496.thumb.jpg",
     images: [
-      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673301244i/60784546.jpg",
+      "https://www.qbd.com.au/img/products/0/9780241998496.thumb.jpg",
     ],
     category: "fiction",
     genre: "Historical Fiction",
@@ -460,7 +460,7 @@ export const books: Book[] = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHYYqZZaKyW4AJ_Yw4urKeyZWk8npAefkyQ&s",
     images: [
-      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652808753i/60194162.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHYYqZZaKyW4AJ_Yw4urKeyZWk8npAefkyQ&s",
     ],
     category: "fiction",
     genre: "Literary Fiction",
@@ -488,7 +488,7 @@ export const books: Book[] = [
     image:
       "https://m.media-amazon.com/images/I/71dQACXhz6L._AC_UF1000,1000_QL80_.jpg",
     images: [
-      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634155799i/58065140.jpg",
+      "https://m.media-amazon.com/images/I/71dQACXhz6L._AC_UF1000,1000_QL80_.jpg",
     ],
     category: "fiction",
     genre: "Historical Fiction",
@@ -516,7 +516,7 @@ export const books: Book[] = [
     image:
       "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1594559067i/18693771.jpg",
     images: [
-      "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1397695292i/18693771.jpg",
+      "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1594559067i/18693771.jpg",
     ],
     category: "health",
     genre: "Health & Psychology",
