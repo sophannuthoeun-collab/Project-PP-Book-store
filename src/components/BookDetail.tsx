@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import { FaTimes, FaStar, FaShoppingCart, FaHeart, FaRegHeart, FaCheck, FaTruck, FaUndo, FaShieldAlt, FaBookOpen, FaUser, FaCalendar, FaLanguage, FaHashtag } from 'react-icons/fa';
+import { FaTimes, FaStar, FaShoppingCart, FaHeart, FaRegHeart, FaCheck, FaTruck, FaUndo, FaShieldAlt,FaBox,FaLock,FaCreditCard,FaArrowLeft,FaArrowRight,FaMapMarkerAlt,FaEnvelope,FaPhone,FaGift,FaTag ,FaCheckCircle,FaBookOpen,FaInfoCircle,FaHome, FaBuilding, FaPaypal,FaUser,FaGooglePay,FaApple, FaCalendar,FaBarcode, FaLanguage, FaHashtag } from 'react-icons/fa';
 import { Book } from '../types';
 import { useStore } from '../context/StoreContext';
+
+
 
 interface BookDetailProps {
   book: Book;
@@ -194,14 +196,6 @@ export function BookDetail({ book, onClose }: BookDetailProps) {
                   {inWishlist ? <FaHeart size={22} /> : <FaRegHeart size={22} />}
                 </button>
               </div>
-
-              {/* Buy Now */}
-              <button
-                disabled={!book.inStock}
-                className="w-full py-4 rounded-xl font-bold text-lg border-2 border-amber-800 text-amber-800 hover:bg-amber-800 hover:text-white transition-all mb-6 disabled:opacity-40 disabled:cursor-not-allowed"
-              >
-                Buy Now
-              </button>
 
               {/* Tabs */}
               <div className="border-t">
